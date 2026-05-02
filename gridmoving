@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootstrap Example</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Hello, Students!</h1>
+            <p>Resize the browser window to see the effects.</p>
+            <div class="row" style="background-color:lightblue;">
+                <div class="col-md-12 col-md-5" style="background-color:pink; border:3px solid lightpink;">Column 1</div>
+                <div class="col-md-12 col-md-7" style="background-color:lightgreen; border:3px solid darkseagreen;">Column 2</div>
+            </div>
+            <div class="row" style="background-color:lightcyan;">
+                <div class="col-md-12" style="background-color:lightyellow; border:3px solid yellow;">Column 3</div>
+            </div>
+        </div>
+    </body>
+</html>
